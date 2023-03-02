@@ -116,12 +116,9 @@ function movimentoTotalDoBoneco() {
         corpoDoBoneco.style.marginLeft = "12em";
     }
     else if (!corpoDoBoneco.style.marginLeft) {
-        corpoDoBoneco.style.marginLeft = "12em";
-    }
-    else
         corpoDoBoneco.style.marginLeft = "";
-}
-
+    }
+    
 //registrando o evento atrelado ao btn
 btn.addEventListener("click", mudarCor);
 btn.addEventListener("click", corDoBotao);
