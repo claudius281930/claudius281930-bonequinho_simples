@@ -1,0 +1,129 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #ff01;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+/* Pai */
+#contentBoneco {
+  width: 50%;
+  height: 24.8%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: end;
+  background: transparent;
+}
+/* Filho/Pai */
+#containerBoneco {
+  width: 20%;
+  height: 50%;
+  background: transparent;
+}
+/* Filho */
+#containerMenbrosSuperiores {
+  background: transparent;
+}
+/* Filho */
+#containerMenbrosInferiores {
+  background: transparent;
+}
+#cabeca {
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  color: #fff;
+  background-color: #131313;
+}
+#corpo {
+  width: 100%;
+  height: 100%;
+  border-radius: 20%;
+  background: #a54;
+}
+#containerMenbrosInferiores {
+  width: 40%;
+  height: 30%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background: transparent;
+}
+#pernaEsq {
+  width: 30%;
+  height: 100%;
+  background: #aba136;
+}
+#pernaDir {
+  width: 30%;
+  height: 100%;
+  background: #aae;
+}
+div {
+  width: 50%;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #002555;
+  position: relative;
+  top: 0;
+  left: 0;
+  /* visibility: hidden; */
+}
+button {
+  width: 100%;
+  height: 15%;
+  border-radius: 15px;
+  border: none;
+  cursor: pointer;
+  background: #ff0770;
+  color: #002554;
+  position: relative;
+  top: 0;
+  left: 0;
+  opacity: 0.75;
+}
+button:hover {
+  opacity: 1;
+  border-color: white;
+}
+span {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#efeito {
+  width: 10%;
+  height: 10%;
+  position: absolute;
+  top: 1em;
+  background: #121212;
+}
+#effect {
+  width: 10%;
+  height: 10%;
+  position: absolute;
+  left: 88%;
+  bottom: 4em;
+  background: #fff;
+}
+details {
+  position: absolute;
+  bottom: 5em;
+  cursor: pointer;
+}
+summary {
+  color: #ff0770;
+}
+p {
+  color: #8888;
+}
