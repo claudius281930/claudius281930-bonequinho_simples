@@ -107,13 +107,20 @@ function movimentoTotalDoBoneco() {
 
         corpoDoBoneco.style.marginLeft = "12em";
     }
-    else if (corpoDoBoneco.style.marginLeft <= "12em") {
+    /* 1 */else if (corpoDoBoneco.style.marginLeft === "12em") {
 
         corpoDoBoneco.style.marginLeft = "24em";
     }
-    else if (corpoDoBoneco.style.marginLeft === "24em") {
+    /* 2 */else if (corpoDoBoneco.style.marginLeft === "24em") {
 
-        corpoDoBoneco.style.marginLeft = "";
+        corpoDoBoneco.style.marginLeft = "13em";
+        
+    }
+    /* 3 */else if (corpoDoBoneco.style.marginLeft === "13em") {
+        
+         corpoDoBoneco.style.marginLeft = "";
+        
+        }
     }
         
 //registrando o evento atrelado ao btn
