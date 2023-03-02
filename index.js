@@ -103,7 +103,7 @@ function mudarEffect() {
 let corpoDoBoneco = document.getElementById("containerBoneco");
 function movimentoTotalDoBoneco() {
 
-    if (corpoDoBoneco.style.marginLeft === "") {
+   if (corpoDoBoneco.style.marginLeft === "") {
 
         corpoDoBoneco.style.marginLeft = "12em";
     }
@@ -114,13 +114,10 @@ function movimentoTotalDoBoneco() {
     /* 2 */else if (corpoDoBoneco.style.marginLeft === "24em") {
 
         corpoDoBoneco.style.marginLeft = "13em";
-        
     }
     /* 3 */else if (corpoDoBoneco.style.marginLeft === "13em") {
-        
          corpoDoBoneco.style.marginLeft = "";
-        
-        }
+    }
     }
         
 //registrando o evento atrelado ao btn
