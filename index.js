@@ -117,8 +117,8 @@ function movimentoTotalDoBoneco() {
     }
     /* 3 */else if (corpoDoBoneco.style.marginLeft === "13em") {
          corpoDoBoneco.style.marginLeft = "";
-    }
-    }
+        }
+}
         
 //registrando o evento atrelado ao btn
 btn.addEventListener("click", mudarCor);
