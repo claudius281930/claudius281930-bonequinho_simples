@@ -105,13 +105,13 @@ function movimentoTotalDoBoneco() {
 
    if (corpoDoBoneco.style.marginLeft === "") {
 
-        corpoDoBoneco.style.marginLeft = "12em";
+        corpoDoBoneco.style.marginLeft = "15em";
     }
-    /* 1 */else if (corpoDoBoneco.style.marginLeft === "12em") {
+    /* 1 */else if (corpoDoBoneco.style.marginLeft === "15em") {
 
-        corpoDoBoneco.style.marginLeft = "24em";
+        corpoDoBoneco.style.marginLeft = "27em";
     }
-    /* 2 */else if (corpoDoBoneco.style.marginLeft === "24em") {
+    /* 2 */else if (corpoDoBoneco.style.marginLeft === "27em") {
 
         corpoDoBoneco.style.marginLeft = "13em";
     }
