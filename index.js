@@ -105,17 +105,17 @@ function movimentoTotalDoBoneco() {
 
    if (corpoDoBoneco.style.marginLeft === "") {
 
-        corpoDoBoneco.style.marginLeft = "15em";
+        corpoDoBoneco.style.marginLeft = "20vw";
     }
-    /* 1 */else if (corpoDoBoneco.style.marginLeft === "15em") {
+    /* 1 */else if (corpoDoBoneco.style.marginLeft === "20vw") {
 
-        corpoDoBoneco.style.marginLeft = "27em";
+        corpoDoBoneco.style.marginLeft = "40vw";
     }
-    /* 2 */else if (corpoDoBoneco.style.marginLeft === "27em") {
+    /* 2 */else if (corpoDoBoneco.style.marginLeft === "40vw") {
 
-        corpoDoBoneco.style.marginLeft = "13em";
+        corpoDoBoneco.style.marginLeft = "19.5vw";
     }
-    /* 3 */else if (corpoDoBoneco.style.marginLeft === "13em") {
+    /* 3 */else if (corpoDoBoneco.style.marginLeft === "19.5vw") {
          corpoDoBoneco.style.marginLeft = "";
         }
 }
